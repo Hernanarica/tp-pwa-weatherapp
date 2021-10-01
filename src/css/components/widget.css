@@ -1,0 +1,33 @@
+.widget {
+	align-self: center;
+	display: flex;
+	align-items: center;
+	padding: 1.5rem;
+	max-inline-size: 14.6875rem;
+	inline-size: 100%;
+	background: var(--gradient);
+	color: var(--white);
+	border-radius: 0.5rem;
+}
+
+.widget__temperature {
+	font-size: 3rem;
+}
+
+.widget__info {
+	display: flex;
+	flex-direction: column;
+	gap: 0.75rem;
+	margin-inline-start: auto;
+}
+
+.widget__info-day,
+.widget__info-location {
+	font: var(--caption-caption);
+}
+
+.widget__info-location {
+	display: flex;
+	align-items: center;
+	gap: 0.25rem;
+}

@@ -1,0 +1,34 @@
+/* Import bootstrapping files */
+@import "./bootstrapping/bootstrapping.css";
+/* Import components files */
+@import "./components/video-bg.css";
+@import "./components/time.css";
+@import "./components/widget.css";
+@import "./components/search.css";
+/* Import sections files */
+@import "./sections/weather.css";
+
+html,
+body {
+   position: relative;
+   font-family: Nunito, sans-serif;
+   overflow: hidden;
+   block-size: 100vh;
+   transition: 350ms;
+}
+
+.sr-only {
+   position: absolute;
+   width: 1px;
+   height: 1px;
+   padding: 0;
+   margin: -1px;
+   overflow: hidden;
+   clip: rect(0, 0, 0, 0);
+   white-space: nowrap;
+   border-width: 0;
+}
+
+.icon__clouds {
+   z-index: 1;
+}

@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="es">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta http-equiv="X-UA-Compatible" content="ie=edge">
+		<link rel="stylesheet" href="./src/css/index.css">
+		<title>Hernán Arica - Cátedra PWA | WeatherApp</title>
+	</head>
+	<body>
+		<video src="" class="video-bg" autoplay muted loop></video>
+		<div class="weather">
+			<div class="search">
+				<form action="#" id="form-city" autocomplete="off">
+					<label for="city" class="sr-only">City</label>
+					<input type="text" name="city" id="city" placeholder="Search by city" class="city" autocomplete="off">
+					<button type="submit" class="search__btn" aria-label="Buscar por ciudad" title="Buscar por ciudad">
+						<i class="icon__location-light" aria-hidden="true"></i>
+					</button>
+				</form>
+			</div>
+			<div class="widget">
+				<div class="widget__temperature"></div>
+				<div class="widget__info">
+					<div class="widget__info-location">
+						<i class="icon__sun"></i>
+						<span></span>
+					</div>
+				</div>
+			</div>
+			<div class="weather__info">
+				<div class="weather__info-max-temperature">
+					<p class="weather__info-paragraph">Máx:
+						<span class="weather__info-value"></span>
+					</p>
+				</div>
+				<div class="weather__info-min-temperature">
+					<p class="weather__info-paragraph">Míx:
+						<span class="weather__info-value"></span>
+					</p>
+				</div>
+				<div class="weather__info-thermal-sensation">
+					<p class="weather__info-paragraph">C°:
+						<span class="weather__info-value"></span>
+					</p>
+				</div>
+				<div class="weather__info-humidity">
+					<p class="weather__info-paragraph">Humedad:
+						<span class="weather__info-value"></span>
+					</p>
+				</div>
+				<div class="weather__info-pressure-atmospheric">
+					<p class="weather__info-paragraph">Presión:
+						<span class="weather__info-value"></span>
+					</p>
+				</div>
+				<div class="weather__info-wind-speed">
+					<p class="weather__info-paragraph">Viento:
+						<span class="weather__info-value"></span>
+					</p>
+				</div>
+			</div>
+		</div>
+		<script src="./src/js/index.js" type="module"></script>
+	</body>
+</html>

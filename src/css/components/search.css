@@ -1,0 +1,38 @@
+.search {
+   position: absolute;
+   top: -50px;
+   left: calc(50% - 111px);
+   background-color: var(--black);
+   border-radius: 0.5rem;
+}
+
+.city {
+   position: relative;
+   padding-inline: 12px;
+   padding-block: 10px;
+   border-radius: 0.5rem;
+   border: 2px solid transparent;
+   background-color: transparent;
+   color: var(--white);
+   outline: none;
+   overflow: hidden;
+}
+
+.city::placeholder {
+   color: var(--white);
+}
+
+.city:focus {
+   border: 2px solid var(--primary);
+}
+
+.search__btn {
+   position: absolute;
+   right: 0;
+   padding-inline: 10px;
+   border: none;
+   background-color: var(--bg);
+   block-size: 100%;
+   font-size: 0;
+   cursor: pointer;
+}

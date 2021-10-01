@@ -1,0 +1,6 @@
+@font-face {
+   font-family: Nunito;
+   src: url(../../assets/fonts/Nunito-Regular.woff) format('woff'),
+   url(../../assets/fonts/Nunito-SemiBold.woff) format('woff'),
+   url(../../assets/fonts/Nunito-Bold.woff) format('woff');
+}
