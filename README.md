@@ -12,3 +12,6 @@ Comisión: dwn3a
 ```bash
 ./src/js/weather.config.js
 ```
+## camino elegido
+
+##### Camino A
